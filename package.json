@@ -1,0 +1,28 @@
+{
+  "name": "itabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: maybe there will be test TDD? Did not hear.\" && exit 1",
+    "server": "node ./src/server/index.js",
+    "client": "electron ./src/client/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirTaytor/iTabs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirTaytor/iTabs/issues"
+  },
+  "homepage": "https://github.com/VladimirTaytor/iTabs#readme",
+  "devDependencies": {
+    "electron": "^2.0.9"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
